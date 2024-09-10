@@ -25,3 +25,11 @@ roslaunch agiros agisim.launch quad_name:=actor_0 simulation_config:=offboard_si
 ```sh
 roslaunch agiros agisim.launch quad_name:=camera_0 simulation_config:=kolibri_simulation.yaml is_server:=False
 ```
+
+## Initial setup for ROS
+
+```sh
+./mount/flight_course/setupros.bash
+```
+
+## Remember to connect to flyingroom_5G
