@@ -22,7 +22,7 @@ class CameraModel(BaseModel):
 
     @staticmethod
     def from_yaml(yaml_path: Path) -> CameraModel:
-        with INTRINSICS_FILE_PATH.open() as yaml_stream:
+        with yaml_path.open() as yaml_stream:
             parsed_yaml = yaml.safe_load(yaml_stream)
 
             xi, alpha, fu, fv, pu, pv = parsed_yaml["cam0"]["intrinsics"]
