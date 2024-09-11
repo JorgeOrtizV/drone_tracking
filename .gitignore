@@ -1,3 +1,9 @@
 input
 output
 .venv
+.DS_Store
+annotated_images.zip
+fixed_annotated_images.zip
+fixed_annotated_images/
+input1/
+output_blurred_image.png
